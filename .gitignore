@@ -1,0 +1,6 @@
+# Ignore common OS and editor files
+.DS_Store
+.vscode/
+
+# Ignore temporary or debug files
+debug.jpg

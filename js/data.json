@@ -1,0 +1,128 @@
+{
+    "services": [
+        {
+            "id": "computer-networking",
+            "icon": "fas fa-network-wired",
+            "title": "Computer Networking",
+            "description": "SOHO, Medium & Enterprise level networking solutions, ensuring robust and reliable connectivity."
+        },
+        {
+            "id": "cctv-surveillance",
+            "icon": "fas fa-video",
+            "title": "CCTV & Surveillance",
+            "description": "Installation, troubleshooting, and maintenance of IP, Analog, and PTZ cameras (Hikvision, Dahua, etc.)."
+        },
+        {
+            "id": "it-training",
+            "icon": "fas fa-chalkboard-teacher",
+            "title": "IT Training & Skills",
+            "description": "Hands-on IT training programs to empower individuals and teams with practical technical skills."
+        },
+        {
+            "id": "access-control",
+            "icon": "fas fa-fingerprint",
+            "title": "Access Control & Biometrics",
+            "description": "Secure installation of access control and biometric systems for enhanced security."
+        },
+        {
+            "id": "website-dev-hosting",
+            "icon": "fas fa-globe",
+            "title": "Website Development & Hosting",
+            "description": "Professional website creation, development, and reliable hosting services for your online presence."
+        },
+        {
+            "id": "it-consultancy",
+            "icon": "fas fa-headset",
+            "title": "IT Consultancy & Risk Assessment",
+            "description": "Expert IT consulting, risk assessment, and reporting to optimize your technology infrastructure."
+        },
+        {
+            "id": "cloud-solutions",
+            "icon": "fas fa-cloud",
+            "title": "Cloud Solutions & Migrations",
+            "description": "Seamless migration and management of your infrastructure on leading cloud platforms (AWS, Azure, GCP)."
+        },
+        {
+            "id": "cybersecurity-services",
+            "icon": "fas fa-shield-alt",
+            "title": "Cybersecurity Services",
+            "description": "Comprehensive security audits, vulnerability assessments, and robust protection for your digital assets."
+        },
+        {
+            "id": "managed-it-services",
+            "icon": "fas fa-cogs",
+            "title": "Managed IT Services",
+            "description": "Proactive monitoring, maintenance, and dedicated helpdesk support for your ongoing IT needs."
+        },
+        {
+            "id": "voip-uc",
+            "icon": "fas fa-phone-alt",
+            "title": "VoIP & Unified Communications",
+            "description": "Installation and integration of modern VoIP phone systems and unified communication solutions."
+        },
+        {
+            "id": "smart-automation",
+            "icon": "fas fa-lightbulb",
+            "title": "Smart Automation",
+            "description": "Designing and implementing smart home and office automation solutions for efficiency and convenience."
+        },
+          {
+            "id": "voice-communication",
+            "icon": "fas fa-comments",
+            "title": "Voice Communication",
+            "description": "VoIP phones, headsets, and communication devices for seamless voice connectivity."
+        },
+        {
+            "id": "Mobile-Applications-Development",
+            "icon": "fas fa-mobile-alt",
+            "title": "Mobile Applications Development",
+            "description": "Custom mobile app development for Android and iOS platforms, tailored to your business needs."
+        }
+        
+    ],
+    "products": [
+        {
+            "id": "network-products",
+            "icon": "fas fa-ethernet",
+            "title": "Network Products",
+            "description": "Cisco Routers/Switches, Mikrotik, TP-Link, D-Link Wireless Routers & Switches (Managed/Unmanaged)."
+        },
+        {
+            "id": "huawei-products",
+            "icon": "fas fa-server",
+            "title": "Huawei Products",
+            "description": "Official distributors of various Huawei networking and IT infrastructure solutions."
+        },
+        {
+            "id": "access-points",
+            "icon": "fas fa-wifi",
+            "title": "Access Points",
+            "description": "Wide range of Access Points from various makes and models for robust wireless coverage."
+        },
+        {
+            "id": "cctv-accessories",
+            "icon": "fas fa-camera-retro",
+            "title": "CCTV Accessories",
+            "description": "All necessary accessories for CCTV installations, ensuring complete surveillance solutions."
+        },
+        {
+            "id": "computer-sales",
+            "icon": "fas fa-laptop",
+            "title": "Computer Sales",
+            "description": "Laptops, Desktops, Tablets, MacBooks, iMac computers for personal and business use."
+        },
+        {
+            "id": "software-solutions",
+            "icon": "fas fa-code",
+            "title": "Software Solutions",
+            "description": "Sales of various types of software, operating systems, office suites, and specialized applications."
+        },
+        {
+            "id": "video-display-phones",
+            "icon": "fas fa-headset",
+            "title": "Video Display Phones (Intercom)",
+            "description": "Digital and Analog intercoms from Hikvision and Dahua for secure communication."
+        }
+      
+    ]
+}
