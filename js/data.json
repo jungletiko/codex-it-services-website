@@ -1,128 +1,232 @@
 {
-    "services": [
-        {
-            "id": "computer-networking",
-            "icon": "fas fa-network-wired",
-            "title": "Computer Networking",
-            "description": "SOHO, Medium & Enterprise level networking solutions, ensuring robust and reliable connectivity."
-        },
-        {
-            "id": "cctv-surveillance",
-            "icon": "fas fa-video",
-            "title": "CCTV & Surveillance",
-            "description": "Installation, troubleshooting, and maintenance of IP, Analog, and PTZ cameras (Hikvision, Dahua, etc.)."
-        },
-        {
-            "id": "it-training",
-            "icon": "fas fa-chalkboard-teacher",
-            "title": "IT Training & Skills",
-            "description": "Hands-on IT training programs to empower individuals and teams with practical technical skills."
-        },
-        {
-            "id": "access-control",
-            "icon": "fas fa-fingerprint",
-            "title": "Access Control & Biometrics",
-            "description": "Secure installation of access control and biometric systems for enhanced security."
-        },
-        {
-            "id": "website-dev-hosting",
-            "icon": "fas fa-globe",
-            "title": "Website Development & Hosting",
-            "description": "Professional website creation, development, and reliable hosting services for your online presence."
-        },
-        {
-            "id": "it-consultancy",
-            "icon": "fas fa-headset",
-            "title": "IT Consultancy & Risk Assessment",
-            "description": "Expert IT consulting, risk assessment, and reporting to optimize your technology infrastructure."
-        },
-        {
-            "id": "cloud-solutions",
-            "icon": "fas fa-cloud",
-            "title": "Cloud Solutions & Migrations",
-            "description": "Seamless migration and management of your infrastructure on leading cloud platforms (AWS, Azure, GCP)."
-        },
-        {
-            "id": "cybersecurity-services",
-            "icon": "fas fa-shield-alt",
-            "title": "Cybersecurity Services",
-            "description": "Comprehensive security audits, vulnerability assessments, and robust protection for your digital assets."
-        },
-        {
-            "id": "managed-it-services",
-            "icon": "fas fa-cogs",
-            "title": "Managed IT Services",
-            "description": "Proactive monitoring, maintenance, and dedicated helpdesk support for your ongoing IT needs."
-        },
-        {
-            "id": "voip-uc",
-            "icon": "fas fa-phone-alt",
-            "title": "VoIP & Unified Communications",
-            "description": "Installation and integration of modern VoIP phone systems and unified communication solutions."
-        },
-        {
-            "id": "smart-automation",
-            "icon": "fas fa-lightbulb",
-            "title": "Smart Automation",
-            "description": "Designing and implementing smart home and office automation solutions for efficiency and convenience."
-        },
-          {
-            "id": "voice-communication",
-            "icon": "fas fa-comments",
-            "title": "Voice Communication",
-            "description": "VoIP phones, headsets, and communication devices for seamless voice connectivity."
-        },
-        {
-            "id": "Mobile-Applications-Development",
-            "icon": "fas fa-mobile-alt",
-            "title": "Mobile Applications Development",
-            "description": "Custom mobile app development for Android and iOS platforms, tailored to your business needs."
-        }
-        
-    ],
-    "products": [
-        {
-            "id": "network-products",
-            "icon": "fas fa-ethernet",
-            "title": "Network Products",
-            "description": "Cisco Routers/Switches, Mikrotik, TP-Link, D-Link Wireless Routers & Switches (Managed/Unmanaged)."
-        },
-        {
-            "id": "huawei-products",
-            "icon": "fas fa-server",
-            "title": "Huawei Products",
-            "description": "Official distributors of various Huawei networking and IT infrastructure solutions."
-        },
-        {
-            "id": "access-points",
-            "icon": "fas fa-wifi",
-            "title": "Access Points",
-            "description": "Wide range of Access Points from various makes and models for robust wireless coverage."
-        },
-        {
-            "id": "cctv-accessories",
-            "icon": "fas fa-camera-retro",
-            "title": "CCTV Accessories",
-            "description": "All necessary accessories for CCTV installations, ensuring complete surveillance solutions."
-        },
-        {
-            "id": "computer-sales",
-            "icon": "fas fa-laptop",
-            "title": "Computer Sales",
-            "description": "Laptops, Desktops, Tablets, MacBooks, iMac computers for personal and business use."
-        },
-        {
-            "id": "software-solutions",
-            "icon": "fas fa-code",
-            "title": "Software Solutions",
-            "description": "Sales of various types of software, operating systems, office suites, and specialized applications."
-        },
-        {
-            "id": "video-display-phones",
-            "icon": "fas fa-headset",
-            "title": "Video Display Phones (Intercom)",
-            "description": "Digital and Analog intercoms from Hikvision and Dahua for secure communication."
-        }
-      
-    ]
+  "services": [
+    {
+      "id": "it-support",
+      "icon": "fas fa-headset",
+      "title": "IT Support & Maintenance",
+      "description": "Comprehensive remote and on-site support to ensure your systems run smoothly, minimizing downtime and maximizing productivity.",
+      "details": "We offer tiered support plans, including proactive monitoring, troubleshooting, software updates, and hardware repair. Our goal is to provide seamless IT operations, allowing your business to focus on its core activities. Includes helpdesk support, system diagnostics, and emergency response.",
+      "benefits": [
+        "Reduced downtime",
+        "Proactive problem solving",
+        "Access to expert technicians",
+        "Cost-effective maintenance"
+      ]
+    },
+    {
+      "id": "networking",
+      "icon": "fas fa-network-wired",
+      "title": "Network Design & Implementation",
+      "description": "Designing, installing, and optimizing robust wired and wireless network infrastructures for seamless connectivity and communication.",
+      "details": "From small office setups to complex corporate networks, we provide end-to-end solutions including network cabling, Wi-Fi deployment, router/switch configuration, and performance optimization. We ensure your network is fast, reliable, and secure.",
+      "benefits": [
+        "High-speed connectivity",
+        "Reliable network performance",
+        "Scalable infrastructure",
+        "Enhanced data flow"
+      ]
+    },
+    {
+      "id": "cybersecurity",
+      "icon": "fas fa-shield-alt",
+      "title": "Cybersecurity Solutions",
+      "description": "Protecting your digital assets from evolving cyber threats with advanced security measures, data protection, and incident response.",
+      "details": "Our cybersecurity services include firewall configuration, antivirus deployment, intrusion detection/prevention systems, data encryption, and employee security training. We help build a strong defense against ransomware, phishing, and data breaches.",
+      "benefits": [
+        "Robust data protection",
+        "Threat prevention",
+        "Compliance assurance",
+        "Peace of mind"
+      ]
+    },
+    {
+      "id": "cctv",
+      "icon": "fas fa-video",
+      "title": "CCTV & Surveillance Systems",
+      "description": "Installation and maintenance of high-definition CCTV systems for enhanced security and monitoring of your premises.",
+      "details": "We provide tailored surveillance solutions, from camera selection and strategic placement to DVR/NVR setup and remote monitoring capabilities. Ensure the safety of your property, assets, and personnel with our reliable CCTV services.",
+      "benefits": [
+        "Enhanced security monitoring",
+        "Deterrent for theft/vandalism",
+        "Remote access capabilities",
+        "Evidence for investigations"
+      ]
+    },
+    {
+      "id": "it-training",
+      "icon": "fas fa-chalkboard-teacher",
+      "title": "IT Training & Consultancy",
+      "description": "Empowering your team with essential IT skills and providing expert advice for strategic technology adoption and digital transformation.",
+      "details": "Our training programs cover a range of topics from basic computer literacy and software proficiency to cybersecurity best practices and advanced networking concepts. Our consultancy services help businesses make informed decisions about their IT investments and strategies.",
+      "benefits": [
+        "Skilled workforce",
+        "Informed IT decisions",
+        "Increased efficiency",
+        "Competitive advantage"
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": "laptops",
+      "icon": "fas fa-laptop",
+      "title": "Laptops & Desktops",
+      "description": "High-performance laptops and desktops from leading brands to meet all your business and personal computing needs.",
+      "details": "We supply a wide range of computing devices, including powerful workstations for demanding tasks, slim ultrabooks for portability, and reliable desktop PCs for office environments. All products come with manufacturer warranties.",
+      "benefits": [
+        "Reliable computing",
+        "Latest technology",
+        "Wide selection",
+        "Competitive pricing"
+      ]
+    },
+    {
+      "id": "servers",
+      "icon": "fas fa-server",
+      "title": "Servers & Storage",
+      "description": "Robust server solutions and scalable storage devices to manage your data efficiently and ensure business continuity.",
+      "details": "Our offerings include rack servers, tower servers, network-attached storage (NAS), and storage area networks (SAN) solutions. We help you choose and configure the right hardware to support your applications and data requirements.",
+      "benefits": [
+        "Secure data storage",
+        "High performance",
+        "Scalability for growth",
+        "Data redundancy"
+      ]
+    },
+    {
+      "id": "networking-gear",
+      "icon": "fas fa-ethernet",
+      "title": "Networking Gear",
+      "description": "Routers, switches, access points, and modems for building stable and high-speed network infrastructures.",
+      "details": "We provide a comprehensive range of networking equipment from trusted brands, ensuring reliable connectivity and optimal network performance for your home or office. Our experts can assist with selection and setup.",
+      "benefits": [
+        "Reliable connectivity",
+        "Optimized network performance",
+        "Enhanced data flow",
+        "Future-proof infrastructure"
+      ]
+    },
+    {
+      "id": "printers",
+      "icon": "fas fa-print",
+      "title": "Printers & Peripherals",
+      "description": "A variety of printers (laser, inkjet), scanners, and other peripherals to support your office's daily operations.",
+      "details": "From multifunction printers ideal for busy offices to specialized scanners and presentation tools, we offer a selection of peripherals to enhance productivity and efficiency. We also provide consumables and maintenance advice.",
+      "benefits": [
+        "Efficient document handling",
+        "High-quality output",
+        "Wide range of options",
+        "Integration support"
+      ]
+    },
+    {
+      "id": "software",
+      "icon": "fas fa-code",
+      "title": "Software Licenses",
+      "description": "Genuine software licenses for operating systems, office suites, antivirus, and specialized business applications.",
+      "details": "Ensure legal compliance and security with authentic software licenses from Microsoft, Adobe, and leading antivirus providers. We help you procure, install, and manage licenses for your entire organization.",
+      "benefits": [
+        "Legal compliance",
+        "Enhanced security",
+        "Access to updates/support",
+        "Optimized productivity"
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "t1",
+      "quote": "Codex IT Services transformed our network infrastructure. Their team is knowledgeable, responsive, and truly goes the extra mile. Highly recommended for any business in Uganda!",
+      "author": "Jane Nankya",
+      "title": "CEO, FutureLink Corp.",
+      "avatar": "images/client-avatar-placeholder.png"
+    },
+    {
+      "id": "t2",
+      "quote": "We rely on Codex IT for all our cybersecurity needs. Their proactive approach has kept us safe from numerous threats. A trustworthy partner in tech.",
+      "author": "David Okello",
+      "title": "Operations Manager, SecureBanc PLC",
+      "avatar": "images/client-avatar-placeholder.png"
+    },
+    {
+      "id": "t3",
+      "quote": "From IT training to product procurement, Codex IT has been instrumental in streamlining our operations. Their expertise is unmatched.",
+      "author": "Sarah Nalwanga",
+      "title": "HR Director, Innovate Africa",
+      "avatar": "images/client-avatar-placeholder.png"
+    }
+  ],
+  "team": [
+    {
+      "id": "tm1",
+      "name": "John Mwangi",
+      "title": "Founder & Lead Network Engineer",
+      "bio": "John is a certified network specialist with over 15 years of experience in designing, implementing, and securing complex network infrastructures for diverse clients.",
+      "avatar": "images/team-member-placeholder.png",
+      "social": {
+        "linkedin": "#",
+        "twitter": "#"
+      }
+    },
+    {
+      "id": "tm2",
+      "name": "Sarah Adongo",
+      "title": "Head of Cybersecurity & IT Consultant",
+      "bio": "Sarah leads our cybersecurity division, specializing in threat intelligence, vulnerability assessment, and crafting resilient security strategies for businesses.",
+      "avatar": "images/team-member-placeholder.png",
+      "social": {
+        "linkedin": "#",
+        "twitter": "#"
+      }
+    },
+    {
+      "id": "tm3",
+      "name": "Michael Ochieng",
+      "title": "Senior Software & Cloud Solutions Architect",
+      "bio": "Michael drives our cloud integration and software development initiatives, helping clients leverage scalable and efficient cloud technologies for their operations.",
+      "avatar": "images/team-member-placeholder.png",
+      "social": {
+        "linkedin": "#",
+        "twitter": "#"
+      }
+    }
+  ],
+  "clients": [
+    {
+      "id": "c1",
+      "name": "Acme Corporation",
+      "logo": "images/client-logo-placeholder.png",
+      "link": "#"
+    },
+    {
+      "id": "c2",
+      "name": "Vanguard Solutions",
+      "logo": "images/client-logo-placeholder.png",
+      "link": "#"
+    },
+    {
+      "id": "c3",
+      "name": "Global Tech Ventures",
+      "logo": "images/client-logo-placeholder.png",
+      "link": "#"
+    },
+    {
+      "id": "c4",
+      "name": "Innovate East Africa",
+      "logo": "images/client-logo-placeholder.png",
+      "link": "#"
+    },
+    {
+      "id": "c5",
+      "name": "Urban Dev Group",
+      "logo": "images/client-logo-placeholder.png",
+      "link": "#"
+    },
+    {
+      "id": "c6",
+      "name": "Future Innovations Ltd",
+      "logo": "images/client-logo-placeholder.png",
+      "link": "#"
+    }
+  ]
 }
