@@ -106,7 +106,7 @@ document.addEventListener('DOMContentLoaded', function() {
             testimonialItem.innerHTML = `
                 <div class="testimonial-quote">"${testimonial.quote}"</div>
                 <div class="testimonial-author">
-                    <img src="${testimonial.avatar}" alt="${testimonial.author}" class="author-avatar">
+                    <img src="${testimonial.avatar}" alt="Avatar of ${testimonial.author}" class="author-avatar">
                     <p><strong>${testimonial.author}</strong><br>${testimonial.title}</p>
                 </div>
             `;
@@ -122,13 +122,13 @@ document.addEventListener('DOMContentLoaded', function() {
             const teamMemberDiv = document.createElement('div');
             teamMemberDiv.classList.add('team-member');
             teamMemberDiv.innerHTML = `
-                <img src="${member.avatar}" alt="${member.name}" class="team-avatar">
+                <img src="${member.avatar}" alt="Avatar of ${member.name}" class="team-avatar">
                 <h4>${member.name}</h4>
                 <p class="team-title">${member.title}</p>
                 <p class="team-bio">${member.bio}</p>
                 <div class="team-social">
-                    ${member.social && member.social.linkedin ? `<a href="${member.social.linkedin}" target="_blank"><i class="fab fa-linkedin"></i></a>` : ''}
-                    ${member.social && member.social.twitter ? `<a href="${member.social.twitter}" target="_blank"><i class="fab fa-twitter"></i></a>` : ''}
+                    ${member.social && member.social.linkedin ? `<a href="${member.social.linkedin}" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>` : ''}
+                    ${member.social && member.social.twitter ? `<a href="${member.social.twitter}" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>` : ''}
                 </div>
             `;
             teamGrid.appendChild(teamMemberDiv);

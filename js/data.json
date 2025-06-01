@@ -139,21 +139,21 @@
       "quote": "Codex IT Services transformed our network infrastructure. Their team is knowledgeable, responsive, and truly goes the extra mile. Highly recommended for any business in Uganda!",
       "author": "Jane Nankya",
       "title": "CEO, FutureLink Corp.",
-      "avatar": "images/client-avatar-placeholder.png"
+      "avatar": "images/placeholder-image.png"
     },
     {
       "id": "t2",
       "quote": "We rely on Codex IT for all our cybersecurity needs. Their proactive approach has kept us safe from numerous threats. A trustworthy partner in tech.",
       "author": "David Okello",
       "title": "Operations Manager, SecureBanc PLC",
-      "avatar": "images/client-avatar-placeholder.png"
+      "avatar": "images/placeholder-image.png"
     },
     {
       "id": "t3",
       "quote": "From IT training to product procurement, Codex IT has been instrumental in streamlining our operations. Their expertise is unmatched.",
       "author": "Sarah Nalwanga",
       "title": "HR Director, Innovate Africa",
-      "avatar": "images/client-avatar-placeholder.png"
+      "avatar": "images/placeholder-image.png"
     }
   ],
   "team": [
@@ -162,10 +162,10 @@
       "name": "John Mwangi",
       "title": "Founder & Lead Network Engineer",
       "bio": "John is a certified network specialist with over 15 years of experience in designing, implementing, and securing complex network infrastructures for diverse clients.",
-      "avatar": "images/team-member-placeholder.png",
+      "avatar": "images/placeholder-image.png",
       "social": {
-        "linkedin": "#",
-        "twitter": "#"
+        "linkedin": "",
+        "twitter": ""
       }
     },
     {
@@ -173,10 +173,10 @@
       "name": "Sarah Adongo",
       "title": "Head of Cybersecurity & IT Consultant",
       "bio": "Sarah leads our cybersecurity division, specializing in threat intelligence, vulnerability assessment, and crafting resilient security strategies for businesses.",
-      "avatar": "images/team-member-placeholder.png",
+      "avatar": "images/placeholder-image.png",
       "social": {
-        "linkedin": "#",
-        "twitter": "#"
+        "linkedin": "",
+        "twitter": ""
       }
     },
     {
@@ -184,10 +184,10 @@
       "name": "Michael Ochieng",
       "title": "Senior Software & Cloud Solutions Architect",
       "bio": "Michael drives our cloud integration and software development initiatives, helping clients leverage scalable and efficient cloud technologies for their operations.",
-      "avatar": "images/team-member-placeholder.png",
+      "avatar": "images/placeholder-image.png",
       "social": {
-        "linkedin": "#",
-        "twitter": "#"
+        "linkedin": "",
+        "twitter": ""
       }
     }
   ],
@@ -195,38 +195,38 @@
     {
       "id": "c1",
       "name": "Acme Corporation",
-      "logo": "images/client-logo-placeholder.png",
-      "link": "#"
+      "logo": "images/placeholder-image.png",
+      "link": ""
     },
     {
       "id": "c2",
       "name": "Vanguard Solutions",
-      "logo": "images/client-logo-placeholder.png",
-      "link": "#"
+      "logo": "images/placeholder-image.png",
+      "link": ""
     },
     {
       "id": "c3",
       "name": "Global Tech Ventures",
-      "logo": "images/client-logo-placeholder.png",
-      "link": "#"
+      "logo": "images/placeholder-image.png",
+      "link": ""
     },
     {
       "id": "c4",
       "name": "Innovate East Africa",
-      "logo": "images/client-logo-placeholder.png",
-      "link": "#"
+      "logo": "images/placeholder-image.png",
+      "link": ""
     },
     {
       "id": "c5",
       "name": "Urban Dev Group",
-      "logo": "images/client-logo-placeholder.png",
-      "link": "#"
+      "logo": "images/placeholder-image.png",
+      "link": ""
     },
     {
       "id": "c6",
       "name": "Future Innovations Ltd",
-      "logo": "images/client-logo-placeholder.png",
-      "link": "#"
+      "logo": "images/placeholder-image.png",
+      "link": ""
     }
   ]
 }
